@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/app/globals.css */
+/* @import "./assets/css/tailwind.css"; */
+@import './assets/css/custom.css';
+@import './assets/css/swiper-bundle.min.css';
+
+/* Add any other global styles here */
+
+@font-face {
+  font-family: 'HarmonyOS_Sans_Regular';
+  src: url('./fonts/HarmonyOS/HarmonyOS_Sans_Regular.ttf');
+}
+
+@font-face {
+  font-family: 'HarmonyOS_Sans_Bold';
+  src: url('./fonts/HarmonyOS/HarmonyOS_Sans_Bold.ttf');
+}
+
+@font-face {
+  font-family: 'HarmonyOS_Sans_Medium';
+  src: url('./fonts/HarmonyOS/HarmonyOS_Sans_Medium.ttf');
+}
+
+@font-face {
+  font-family: 'HarmonyOS_Sans_Light';
+  src: url('./fonts/HarmonyOS/HarmonyOS_Sans_Light.ttf');
+}
+
+@font-face {
+  font-family: 'HarmonyOS_Sans_Thin';
+  src: url('./fonts/HarmonyOS/HarmonyOS_Sans_Thin.ttf');
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'metropolis', sans-serif;
+}
+
+/* .harmonyos-sans-regular {
+  font-family: 'HarmonyOS_Sans_Regular', sans-serif;
+}
+
+.harmonyos-sans-bold {
+  font-family: 'HarmonyOS_Sans_Bold', sans-serif;
+}
+
+.harmonyos-sans-medium {
+  font-family: 'HarmonyOS_Sans_Medium', sans-serif;
+}
+
+.harmonyos-sans-light {
+  font-family: 'HarmonyOS_Sans_Light', sans-serif;
+}
+
+.harmonyos-sans-thin {
+  font-family: 'HarmonyOS_Sans_Thin', sans-serif;
+} */
+
+/* Custom Slider buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.xyz {
+  color: yellow;
+}
